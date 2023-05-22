@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 main{
     padding: 0px 35px;
     font-family: 'Poltawski Nowy', serif;
@@ -51,31 +57,42 @@ header{
     transition: 0.02s;
 }
 
-.energias_1{
-    display: grid;
-    grid-template-rows: auto auto;
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-rows: auto auto; */
     margin-top: 10px;
+    justify-content: space-between;
+    width: 100%;   
 }
 
-.energias_1 section{
-    display: grid;
-    grid-template-columns: 60% 40%;
+.container section{
+    /* display: grid;
+    grid-template-columns: 60% 40%; */
+    display: flex;
+    flex-direction: column;
+    width:60%;    
 }
 
-.energias_1 section img{
-    justify-self: center;
+@media (max-width: 900px) {
+    .container section{
+        width: 100%;
+    }    
+}
+
+.container img{    
     border-radius: 10px;
-    padding: 10px;
-    margin: auto;
+    padding: 10px; 
+    margin: auto;   
 }
 
-.energias_1 section p{
+.container section p{
     text-align: justify;
     font-size: 17px;
     justify-content: center;
 }
 
-.metabolica_1{
+/* .metabolica_1{
     display: grid;
     grid-template-rows: auto auto;  
     margin-top: 10px;  
@@ -119,4 +136,4 @@ header{
 .microalgal_1 section p{
     text-align: justify;
     font-size: 17px;
-}
+} */
