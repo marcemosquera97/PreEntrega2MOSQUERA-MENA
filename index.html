@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@400;500;700&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
 </head>
 <body>
     <header id="header">       
@@ -31,33 +32,33 @@
         </nav>
     </header>   
     <main>
-        <section class="presentacion">
+        <section class="presentacion p-5">
             <h2>¿Quienes somos?</h2>
-            <div class="contenido_presentacion">
-                <p>El grupo de bioprocesos de la facultad de ingeniería de la Universidad de Antioquia tiene como objetivos principales la investigación y el desarrollo de procesos y productos biotecnológicos de amplio uso en las industrias químicas, alimenticias y farmacéuticas, mediante el desarrollo e implementación de tecnologías que tengan gran potencial frente a los actuales procesos de obtención de los diversos productos. Así mismo, ha desarrollado en los ultimos años una linea de generación de energías alternativas por medio de la producción de biogás con procesos de digestión anaerobía, en donde aprovechan el potencia de metanación de diferentes residuos organicos de las industrias agroindustriales</p>
-                <img src="imagenes/biotecnologia.jpeg" alt="Biotecnologia">
+            <div class="contenido_presentacion row">
+                <p class="col-sm-7 col-12">El grupo de bioprocesos de la facultad de ingeniería de la Universidad de Antioquia tiene como objetivos principales la investigación y el desarrollo de procesos y productos biotecnológicos de amplio uso en las industrias químicas, alimenticias y farmacéuticas, mediante el desarrollo e implementación de tecnologías que tengan gran potencial frente a los actuales procesos de obtención de los diversos productos. Así mismo, ha desarrollado en los ultimos años una linea de generación de energías alternativas por medio de la producción de biogás con procesos de digestión anaerobía, en donde aprovechan el potencia de metanación de diferentes residuos organicos de las industrias agroindustriales</p>
+                <img class="col-sm-5 col-12" src="imagenes/biotecnologia.jpeg" alt="Biotecnologia">
             </div>
         </section>
 
-        <section class="investigaciones" id="investigaciones_1">
-            <h2>Algunas de nuestras investigaciones</h2>
-            <article class="articulos">
-                <a href="https://link.springer.com/article/10.1007/s10811-021-02464-6" target="_blank">
+        <section class="investigaciones text-center p-3" id="investigaciones_1">
+            <h2 class="p-3">Algunas de nuestras investigaciones</h2>
+            <article class="articulos row">
+                <a class="col-sm-4 col-12" href="https://link.springer.com/article/10.1007/s10811-021-02464-6" target="_blank">
                     <img src="imagenes/Articulo1.PNG" alt="Articulo 1">
                 </a>
 
-                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0960852417312555?via%3Dihub" target="_blank">
+                <a class="col-sm-4 col-12" href="https://www.sciencedirect.com/science/article/abs/pii/S0960852417312555?via%3Dihub" target="_blank">
                     <img src="imagenes/Articulo2.PNG" alt="Articulo 2">
                 </a>
 
-                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0016236114011818?via%3Dihub" target="_blank">
+                <a class="col-sm-4 col-12" href="https://www.sciencedirect.com/science/article/abs/pii/S0016236114011818?via%3Dihub" target="_blank">
                     <img src="imagenes/Articulo3.PNG" alt="Articulo 3">
                 </a>
             </article>           
         </section>
 
-        <section class="lineas_investigacion">
-            <div class="lineas">
+        <section class="lineas_investigacion row p-4">
+            <div class="lineas col-sm-5 col-12">
                 <h2>Lineas de investigación</h2>            
                     <p>
                         <ul>
@@ -79,16 +80,16 @@
                         </ul>
                     </p>
             </div>    
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/jhXd0fvlQdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="video"></iframe>
+            <iframe class="col-sm-7 col-12 p-3" width="560" height="315" src="https://www.youtube.com/embed/jhXd0fvlQdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="video"></iframe>
         </section>
     </main>
 
-    <footer class="pie_pagina">
-        <section>
+    <footer class="pie_pagina row p-4 gap-4">
+        <section class="col-sm-4 col-12">
             <h3>Contacto</h3>
             <p>Universidad de Antioquia<br>Calle 70 No. 52 - 21<br>e-mail:bioprocesos@udea.edu.co<br>Medellín-Colombia</p>
         </section>
-        <section >
+        <section class="col-sm-4 col-12">
             <h3>Empresas aliadas</h3>
             <ul class="empresas">
                 <li>
@@ -111,7 +112,7 @@
                 </li>
             </ul>
         </section>
-        <section class="redes">
+        <section class="redes col-sm-3 col-12">
             <h3>Redes</h3>
             <div class="redes_1">
                 <a href="https://www.instagram.com/bioprocesosudea/" target="_blank">
@@ -127,6 +128,6 @@
         </section>
         </footer>
 
-    
+    <script src="./js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
