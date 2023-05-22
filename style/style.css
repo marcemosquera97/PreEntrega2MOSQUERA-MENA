@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+main{
+    /* padding: 0px 35px; */
+    font-family: 'Poltawski Nowy', serif;    
+}
+
+
+header{
+	border: black;
+	border-width: 2px;
+	box-shadow: 0px 3px 20px 3px rgba(0, 0, 0, 0.06);
+    background-color: #d5dbe5;
+    font-family: 'Poltawski Nowy', serif;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.head_container{
+	padding: 20px;
+	overflow: hidden;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.logo{
+	float:left;
+	margin-left: 15px;
+}
+.logo img{
+	height: 120px;
+}
+
+.menu ul{
+	list-style-type: none;
+	float: right;
+}
+.menu li{
+	display: inline;	 
+}
+.menu a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #10316b;
+	padding:10px 15px;	    
+}
+.menu a:hover { 
+	background: rgba(36, 66, 80, 0.1);
+    border:#121812;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    transition: 0.02s;
+}
+
+.presentacion{
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 0px 35px;  
+}
+
+.contenido_presentacion{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.contenido_presentacion img{
+    justify-self: center;    
+}
+
+.contenido_presentacion p{
+    text-align: justify;
+}
+
+.investigaciones{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: rgb(113, 136, 159);
+    padding: 0px 35px;
+}
+
+.investigaciones h2{
+    text-align: center;    
+}
+
+.articulos{
+    display: grid;
+    grid-template-columns: repeat(3, 37%);
+    justify-content: space-evenly;
+    padding: 10px 20px;
+}
+
+.articulos img{
+    width: 25vw;
+    height: 50vh;
+    padding: 5%;
+}
+
+.lineas_investigacion{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 35px;
+    padding: 0px 35px;        
+}
+
+.lineas{
+    background-color:  #d5dbe5;
+}
+
+.lineas h2{
+    text-align: center;
+}
+
+.lineas ul{
+    list-style-type: none;    
+}
+
+.lineas li{
+    padding: 20px;
+}
+
+.lineas ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.video{
+    justify-self: center;
+}
+
+.pie_pagina{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:  #d5dbe5;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    padding: 0px 35 px;
+}
+
+.pie_pagina h3{
+    text-align: center;
+}
+
+.pie_pagina p{
+    text-align: center;
+}
+
+.empresas{
+    list-style-type: none;    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.empresas a{
+    text-decoration: none;    
+    color: black;
+}
+
+.empresas img{
+    width: 50px;
+    height: 50px;   
+}
+
+.empresas p{
+    font-size: 15px;
+    font-style: italic;
+}
+.redes{
+    display: grid;
+    grid-template-rows: 30% 70%;
+}
+
+.redes_1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.redes_1 img{
+    width: 50px;
+    height: 50px;
+}

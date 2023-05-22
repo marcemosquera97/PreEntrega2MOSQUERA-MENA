@@ -1,0 +1,122 @@
+main{
+    padding: 0px 35px;
+    font-family: 'Poltawski Nowy', serif;
+}
+
+
+header{
+	border: black;
+	border-width: 2px;
+	box-shadow: 0px 3px 20px 3px rgba(0, 0, 0, 0.06);
+    background-color: #d5dbe5;
+    font-family: 'Poltawski Nowy', serif;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+.head_container{
+	padding: 20px;
+	overflow: hidden;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+.logo{
+	float:left;
+	margin-left: 15px;
+}
+.logo img{
+	height: 120px;
+}
+
+.menu ul{
+	list-style-type: none;
+	float: right;
+}
+.menu li{
+	display: inline;	 
+}
+.menu a{
+	text-decoration: none;
+	font-weight: bold;
+	color: #10316b;
+	padding:10px 15px;	    
+}
+.menu a:hover { 
+	background: rgba(36, 66, 80, 0.1);
+    border:#121812;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    transition: 0.02s;
+}
+
+.energias_1{
+    display: grid;
+    grid-template-rows: auto auto;
+    margin-top: 10px;
+}
+
+.energias_1 section{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.energias_1 section img{
+    justify-self: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+.energias_1 section p{
+    text-align: justify;
+    font-size: 17px;
+    justify-content: center;
+}
+
+.metabolica_1{
+    display: grid;
+    grid-template-rows: auto auto;  
+    margin-top: 10px;  
+}
+
+.metabolica_1 section{
+    display: grid;
+    grid-template-columns: 60% 40%;    
+}
+
+.metabolica_1 section img{
+    justify-self: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+.metabolica_1 section p{
+    text-align: justify;
+    font-size: 17px;
+}
+
+.microalgal_1{
+    display: grid;
+    grid-template-rows: auto auto; 
+    margin-top: 10px;   
+}
+
+.microalgal_1 section{
+    display: grid;
+    grid-template-columns: 60% 40%;    
+}
+
+.microalgal_1 section img{
+    justify-self: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+.microalgal_1 section p{
+    text-align: justify;
+    font-size: 17px;
+}
